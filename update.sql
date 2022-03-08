@@ -1,9 +1,9 @@
 UPDATE customer
-SET fax = NULL
+SET fax IS NULL
 
 UPDATE customer
 SET company = 'Self'
-WHERE company = NULL
+WHERE company IS NULL
 
 UPDATE customer
 SET last_name = 'Thompson'
@@ -15,5 +15,5 @@ WHERE email = 'luisrojas@yahoo.cl'
 
 UPDATE track
 SET composer = 'The darkness around us'
-WHERE composer = NULL
+WHERE composer IS NULL
 
